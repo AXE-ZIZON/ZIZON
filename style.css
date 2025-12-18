@@ -354,4 +354,24 @@ body {
     padding-top: 10px;
     resize: none;
 }
+
+/* PC */
+.container {
+  display: flex;
+}
+
+/* iPad */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
+
 /* END FORM  */
